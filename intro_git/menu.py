@@ -24,3 +24,6 @@ def menu():
         elif opcao == "3"
             a, b = entradaValores()
             print(f"Resultado: {calculadora.multiplicar(a, b)}")
+        elif opcao == "4"
+            a, b = entradaValores()
+            print(f"Resultado: {calculadora.dividir(a, b)}")
