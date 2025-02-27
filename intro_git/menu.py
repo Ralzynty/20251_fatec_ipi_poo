@@ -18,12 +18,17 @@ def menu():
         if opcao == "1":
             a, b = entradaValores()
             print(f"Resultado: {calculadora.somar(a, b)}")
-        elif opcao == "2"
+        elif opcao == "2":
             a, b = entradaValores()
             print(f"Resultado: {calculadora.subtrair(a, b)}")
-        elif opcao == "3"
+        elif opcao == "3":
             a, b = entradaValores()
             print(f"Resultado: {calculadora.multiplicar(a, b)}")
-        elif opcao == "4"
+        elif opcao == "4":
             a, b = entradaValores()
             print(f"Resultado: {calculadora.dividir(a, b)}")
+        elif opcao == "0":
+            print("Saindo...")
+            break
+        else:
+            print("Opção Inválida. Tente novamente.")
