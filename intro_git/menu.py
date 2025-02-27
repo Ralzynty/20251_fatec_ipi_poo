@@ -21,4 +21,6 @@ def menu():
         elif opcao == "2"
             a, b = entradaValores()
             print(f"Resultado: {calculadora.subtrair(a, b)}")
-            
+        elif opcao == "3"
+            a, b = entradaValores()
+            print(f"Resultado: {calculadora.multiplicar(a, b)}")
