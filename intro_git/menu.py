@@ -18,3 +18,7 @@ def menu():
         if opcao == "1":
             a, b = entradaValores()
             print(f"Resultado: {calculadora.somar(a, b)}")
+        elif opcao == "2"
+            a, b = entradaValores()
+            print(f"Resultado: {calculadora.subtrair(a, b)}")
+            
